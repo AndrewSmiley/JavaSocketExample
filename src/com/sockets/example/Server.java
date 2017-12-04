@@ -10,6 +10,7 @@ import java.net.Socket;
  * Created by Andrew on 12/3/17.
  */
 public class Server {
+    //this is shitty, cheap code. These shouldn't be member vars
     ServerSocket providerSocket;
     Socket connection = null;
     ObjectOutputStream out;
@@ -59,23 +60,28 @@ public class Server {
     void run()
     {
         try{
-            //1. creating a server socket
+            // creating a server socket
             providerSocket = new ServerSocket(2004, 10);
-            //2. Wait for connection
+            // Wait for connection
             System.out.println("Waiting for connection");
             connection = providerSocket.accept();
             System.out.println("Connection received from " + connection.getInetAddress().getHostName());
-            //3. get Input and Output streams
+            // get Input and Output streams (output is where we'll send outgoing data to the client, input is where
+            //we'll take data in. Always be sure to flush the stream after opening and after sending
             out = new ObjectOutputStream(connection.getOutputStream());
             out.flush();
             in = new ObjectInputStream(connection.getInputStream());
             sendMessage("Connection successful");
-            //4. The two parts communicate via the input and output streams
             do{
                 try{
+                    //read message in from the client, we'll have sent a message to the client already,
+                    //so the client knows to send a response
                     incomingMessage = (String)in.readObject();
+                    //now print the incoming message
                     System.out.println("client>" + incomingMessage);
 
+
+                    //conditionally terminate
                     if (incomingMessage.equals("bye"))
                         sendMessage("bye");
                     else
@@ -90,7 +96,7 @@ public class Server {
             ioException.printStackTrace();
 
         } finally{
-            //4: Closing connection
+            // close connection
             try{
                 in.close();
                 out.close();
@@ -101,6 +107,11 @@ public class Server {
             }
         }
     }
+
+    /**
+     * Utility function to send a message to the client
+     * @param msg
+     */
     void sendMessage(String msg)
     {
         try{

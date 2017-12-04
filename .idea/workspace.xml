@@ -64,41 +64,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sockets/example/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.43933055" vertical-offset="945" max-vertical-offset="1830">
+            <state line="16" column="25" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1995">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
                 <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1186#1187#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Client.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sockets/example/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="18" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1800">
+            <state line="122" column="5" selection-start="3571" selection-end="3571" vertical-scroll-proportion="3.8284519" vertical-offset="0" max-vertical-offset="1965">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
@@ -157,8 +157,8 @@
         <option value="$PROJECT_DIR$/src/com/sockets/example/Runner.java" />
         <option value="$PROJECT_DIR$/src/com/sockets/example/ServerRunner.java" />
         <option value="$PROJECT_DIR$/src/com/sockets/example/ClientRunner.java" />
-        <option value="$PROJECT_DIR$/src/com/sockets/example/Client.java" />
         <option value="$PROJECT_DIR$/src/com/sockets/example/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/sockets/example/Client.java" />
       </list>
     </option>
   </component>
@@ -554,22 +554,22 @@
       <changelist id="d73a4496-0181-4e37-9797-d606dcfea9b2" name="Default" comment="" />
       <created>1512326950234</created>
       <updated>1512326950234</updated>
-      <workItem from="1512326953946" duration="1338000" />
+      <workItem from="1512326953946" duration="2300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1338000" />
+    <option name="totallyTimeSpent" value="2300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -585,7 +585,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -621,6 +621,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sockets/example/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sockets/example/ServerRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="25" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -630,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sockets/example/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1800">
+        <state line="122" column="5" selection-start="3571" selection-end="3571" vertical-scroll-proportion="3.8284519" vertical-offset="0" max-vertical-offset="1965">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#453#454#0" expanded="true" />
@@ -653,35 +682,6 @@
             <element signature="e#1155#1156#0" expanded="true" />
             <element signature="e#1213#1214#0" expanded="true" />
             <element signature="e#1263#1264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sockets/example/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.43933055" vertical-offset="945" max-vertical-offset="1830">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
           </folding>
         </state>
       </provider>

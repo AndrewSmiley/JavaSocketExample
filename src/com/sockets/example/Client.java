@@ -60,20 +60,26 @@ public class Client {
     void run()
     {
         try{
-            //1. creating a socket to connect to the server
+            //create a socket to connect to the server. these can be arbitrary, just map to your server
             requestSocket = new Socket("localhost", 2004);
             System.out.println("Connected to localhost in port 2004");
-            //2. get Input and Output streams
+            //same as in the server, get Input and Output streams
             out = new ObjectOutputStream(requestSocket.getOutputStream());
             out.flush();
             in = new ObjectInputStream(requestSocket.getInputStream());
-            //3: Communicating with the server
+            //pretty much the same as the server, only the
+            //server has sent the first message, so read it in and then
+            //get input from the user to send as a response
             do{
                 try{
+                    //get server messsage
                     serverMessage = (String)in.readObject();
+                    //output
                     System.out.println("server>" + serverMessage);
+
                     Scanner reader = new Scanner(System.in);  // Reading from System.in
                     System.out.println("Enter text: ");
+                    //send to server
                     sendMessage(reader.nextLine());
                 }
                 catch(ClassNotFoundException classNot){
@@ -99,6 +105,11 @@ public class Client {
             }
         }
     }
+
+    /**
+     * Same as the server. Utility function to send message to the server
+     * @param msg
+     */
     void sendMessage(String msg)
     {
         try{
